@@ -1,0 +1,22 @@
+# Scrapy Basics
+
+# shell: 
+  Starts the Scrapy shell for the given URL (if given) or empty if no URL is given
+
+scrapy shell
+
+# fetch
+# Downloads the given URL using the Scrapy downloader and writes the contents to standard output.
+
+fetch("https://www.amazon.in/")
+
+# View :
+# Opens the given URL in a browser, as your Scrapy spider would “see” it. Sometimes spiders see pages differently from regular users, so     
+# this can be used to check what the spider “sees” and confirm it’s what you expect.
+
+view(response)
+
+
+
+
+
