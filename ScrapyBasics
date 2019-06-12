@@ -16,7 +16,5 @@ fetch("https://www.amazon.in/")
 
 view(response)
 
-
-
-
+response.css(".title::text").extract()
 
